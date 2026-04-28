@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-28T12:00:00Z",
+  "description": "DimenX 官方数据源仓库 - 社区维护的动漫视频源配置欢迎大家提交",
+  "sources": [
+    {
+      "id": "7sefun",
+      "name": "7sefun",
+      "version": "1.0.0",
+      "baseURL": "https://www.7sefun.top/",
+      "searchURL": "https://www.7sefun.top/vodsearch/-------------.html?wd={keyword}",
+      "searchList": "//div[2]/div[2]/div[2]/div[2]/div",
+      "searchName": "//div[2]/text()",
+      "searchResult": "//a",
+      "imgRoads": "//img",
+      "chapterRoads": "//div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]",
+      "chapterResult": "//a",
+      "isEnabled": true
+    },
+    {
+      "id": "age",
+      "name": "AGE动漫",
+      "version": "1.0.0",
+      "baseURL": "https://www.agedm.io/",
+      "searchURL": "https://www.agedm.io/search?query={keyword}",
+      "searchList": "//div[2]/div/section/div/div/div/div/div/div/div",
+      "searchName": "//div/div[2]/h5/a",
+      "searchResult": "//div/div[2]/h5/a",
+      "imgRoads": "//img",
+      "chapterRoads": "//div[2]/div/section/div/div[2]/div[2]/div[2]/div[1]",
+      "chapterResult": "//ul/li/a",
+      "isEnabled": true
+    },
+    {
+      "id": "aafun",
+      "name": "AaFun动漫",
+      "version": "1.0.0",
+      "baseURL": "https://www.aafun.cc/",
+      "searchURL": "https://www.aafun.cc/feng-s.html?wd={keyword}",
+      "searchList": "//div/ul/li/div/div/div/div",
+      "searchName": "//div/div[2]/div/div/div[1]/div/div[2]/div/ul/li/div/div/div[2]/div[1]/div/a",
+      "searchResult": "//div/div[2]/div/div/div[1]/div/div[2]/div/ul/li/div/div/div[2]/div[1]/div/a",
+      "imgRoads": "//img",
+      "chapterRoads": "//*[@id=\"playlist\"]/div[2]/div[2]",
+      "chapterResult": "//div[@class=\"row\"]//ul/li/a",
+      "isEnabled": true
+    },
+    {
+      "id": "haixing",
+      "name": "海星动漫",
+      "version": "1.0.0",
+      "baseURL": "https://www.haixingdmx.com/",
+      "searchURL": "https://www.haixingdmx.com/s_all?ex=1&kw={keyword}",
+      "searchList": "//div[4]/div[2]/div[1]/ul/li",
+      "searchName": "//div[4]/div[2]/div[1]/ul/li/h2/a",
+      "searchResult": "//div[4]/div[2]/div[1]/ul/li/h2/a",
+      "imgRoads": "//img",
+      "chapterRoads": "//*[@id=\"main0\"]/div[1]",
+      "chapterResult": "//*[@id=\"main0\"]/div[2]/ul/li/a",
+      "isEnabled": true
+    },
+    {
+      "id": "omofun",
+      "name": "Omofun动漫",
+      "version": "1.0.0",
+      "baseURL": "https://enlienli.link/",
+      "searchURL": "https://enlienli.link/vod/search.html?wd={keyword}",
+      "searchList": "//div[@class='module-card-item module-item']/div",
+      "searchName": "//div[@class='module-card-item-title']/a",
+      "searchResult": "//div[@class='module-card-item-title']/a",
+      "imgRoads": "//img",
+      "chapterRoads": "//div[@class='module-list sort-list tab-list his-tab-list']",
+      "chapterResult": "//a",
+      "isEnabled": true
+    }
+  ]
+}
