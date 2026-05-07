@@ -31,7 +31,7 @@
 
 ## 🔗 相关链接
 
-- [DimenX 主项目](https://github.com/Sakurayuki-A/DimenX)
+- [Mirora 主项目](https://github.com/Sakurayuki-A/DimenX)
 - [问题反馈](https://github.com/Sakurayuki-A/DimenX-source/issues)
 
 ## 📊 版本历史
