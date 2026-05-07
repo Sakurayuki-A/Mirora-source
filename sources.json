@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-04-29T07:49:22.716916Z",
-  "description": "DimenX 规则导出 - 包含 5 条数据源配置",
+  "description": "Mirora 规则导出 - 包含 5 条数据源配置",
   "sources": [
     {
       "id": "7sefun",
